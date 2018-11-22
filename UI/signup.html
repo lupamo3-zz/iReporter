@@ -11,7 +11,38 @@
   </head>
 
   <body>
+        <div class="container" id="container"> 
+    <ul>
+      <li><a class="active" href="index.html">iReporter</a></li>
+      <li style="float:right"><a href="login.html">Login</a></li>
+      <li style="float:right"><a href="#about">Admin</a></li>
+      <li style="float:right"><a href="#about">Profile</a></li>
+      <li style="float:right"><a href="#about">Incidence</a></li>
+    </ul>
+        
+            <form>  
+                <h1>Sign Up</h1> 
+                <h5 id="usernamefailed"></h5>
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" >
+                
+                <h5 id="emailfailed"></h5>
+                <label for="Email">Email</label>
+                <input type="email" name="email" id="email">
+                
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password">
     
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" name="confirmPassword" id="confirmPassword">
+    
+                <div id="lower">
+                <h4>Have an account? Click <a href="login.html">here</a></h4>
+                <button type="button" id="signup">Sign Up</button>
+                </div>
+            
+            </form>      
+        </div>
     <script src="js/scripts.js"></script>
   </body>
 </html>
