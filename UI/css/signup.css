@@ -1,7 +1,7 @@
 html, body{
     width: 100%;
     height: 100%;
-    color: #f0f0f0;
+    color: black;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
@@ -25,7 +25,7 @@ form {
 }
 
 label {
-    color: #fff;
+    color: black;
     display: inline-block;
     margin-left: 18px;
     padding-top: 10px;
