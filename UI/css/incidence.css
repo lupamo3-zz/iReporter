@@ -1,11 +1,13 @@
+
 .footer {
-    position: fixed;
+    position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
     background-color: #8F9192;
     color: white;
     text-align: center;
+    height: 2em;
  }
 
  /* Extra small devices (phones, 600px and down) */
@@ -32,3 +34,79 @@
 @media only screen and (min-width: 1200px) {
     .example {background: pink;}
 }
+
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #8F9192;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #8F9192;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+{
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+    flex: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+
+
+.containers {
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0
+  }
+  
+  .containers::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .containers img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  .containers span {
+    font-size: 20px;
+    margin-right: 15px;
+  }

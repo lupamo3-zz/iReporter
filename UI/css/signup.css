@@ -106,15 +106,15 @@ h4{
 }
 
 .footer {
-    position: fixed;
+    position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
     background-color: #8F9192;
     color: white;
     text-align: center;
+    height: 2em;
  }
-
  /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .example {background: red;}
