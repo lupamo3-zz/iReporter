@@ -1,0 +1,116 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20;
+    overflow: hidden;
+    background-color: #909293;
+    height: 70px;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 32px;
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #8F9192;
+    color: white;
+    text-align: center;
+    height: 2em;
+ }
+
+
+ /* box shwoing redflags/interventions */
+{
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 0px;
+  }
+  
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #8F9192;
+    color: white;
+  }
+  
+  .fa {font-size:50px;}
+
+   /* end of box shwoing redflags/interventions */
+
+   /* profile picture */
+   .avatar {
+    vertical-align: middle;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+ 
+/* end of profile pictrue */
+
+.profileavatar {
+    position: relative;
+    text-align: center;
+    display: inline;
+}
+
+/* div {
+    border: 3px solid #4CAF50;
+    padding: 5px;
+} */
+
+.clearfix {
+    overflow: auto;
+    border: 3px solid #8E9091;
+    padding: 5px;
+}
+
+.img2 {
+    float: right;
+}
