@@ -22,13 +22,83 @@
       <li style="float:right"><a href="incidence.html">Incidence</a></li>
     </ul>
    
-     <div class="container">
        <center> Welcome to iReporter !! </center>
-    <center><form action="/action_page.php">
-      <input type="file" name="pic" accept="image/*">
+
+  <h3>Create interventions and red-flags </h3>
+
+  <div class="container">
+    <form action="/action_page.php">
       
-    </form></center>
+      <label for="incidence">Incidence</label>
+      <select id="incidence" name="incidence">
+        <option value="red-flags">Red-flag</option>
+        <option value="intervention">Intervention</option>
+      </select>
+      
+  
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Create your intervention request or red-flag alert..." style="height:200px"></textarea>
+      <center> Upload Videos and Images  <form action="/action_page.php">
+    <input type="file" name="choose file" accept="file_extension|audio/*|video/*|image/*|media_type
+  ">
+  </form></center>
+  <button onclick="getLocation()">Click here to get your Geo-location, Location in Longitudes/Latitudes</button>
+<p id="demo"></p>
+   <center><input type="submit" value="Post"></center>
+    </form>
   </div>
+  
+<br>
+<br>
+<center> <h1>Timeline </h1></center>
+
+<div class="row">
+    <div class="column" style="background-color:#aaa;">
+      <h2>Red-flags</h2>
+      <div class="containers">
+          <img src="img/avi1.png" alt="Avatar" style="width:90px">
+          <p><span>Cal Drono</span> CEO at DayCare.</p>
+          <p>Corruption is a huge bane to Africa’s development. African countries must develop novel and
+              localised solutions that will curb this menace, hence the birth of iReporter. iReporter enables
+              any/every citizen to bring any form of corruption to the notice of appropriate authorities and the
+              general public. Users can also report on things that needs government intervention.</p>
+        </div>
+    </div>
+    <div class="column" style="background-color:#bbb;">
+      <h2>Interventions</h2>
+      <div class="containers">
+          <img src="img/avi2.png" alt="Avatar" style="width:90px">
+          <p><span>Anjichi Andela</span> CEO at Ms.</p>
+          <p>Corruption is a huge bane to Africa’s development. African countries must develop novel and
+              localised solutions that will curb this menace, hence the birth of iReporter. iReporter enables
+              any/every citizen to bring any form of corruption to the notice of appropriate authorities and the
+              general public. Users can also report on things that needs government intervention.</p>
+        </div>
+    </div>
+  </div>
+
+  <div class="row">
+      <div class="column" style="background-color:#aaa;">
+          <div class="containers">
+              <img src="img/avi2.png" alt="Avatar" style="width:90px">
+              <p><span>Anjichi Andela</span> CEO at Ms.</p>
+              <p>Corruption is a huge bane to Africa’s development. African countries must develop novel and
+                  localised solutions that will curb this menace, hence the birth of iReporter. iReporter enables
+                  any/every citizen to bring any form of corruption to the notice of appropriate authorities and the
+                  general public. Users can also report on things that needs government intervention.</p>
+            </div>
+      </div>
+      <div class="column" style="background-color:#bbb;">
+          <div class="containers">
+              <img src="img/avi1.png" alt="Avatar" style="width:90px">
+              <p><span>Cal Drono</span> CEO at DayCare.</p>
+              <p>Corruption is a huge bane to Africa’s development. African countries must develop novel and
+                  localised solutions that will curb this menace, hence the birth of iReporter. iReporter enables
+                  any/every citizen to bring any form of corruption to the notice of appropriate authorities and the
+                  general public. Users can also report on things that needs government intervention.</p>
+            </div>
+      </div>
+    </div>
 
   <div class="footer">
     <p>iReporter(c)</p>
